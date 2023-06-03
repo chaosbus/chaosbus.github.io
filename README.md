@@ -1,2 +1,0 @@
-# chaosbus.github.io
-blog

@@ -1,0 +1,353 @@
+<!doctype html><html lang=zh-cn><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=robots content="noodp"><title>主题文档 - mermaid Shortcode - Origins</title><meta name=Description content="mermaid shortcode 使用 Mermaid 库提供绘制图表和流程图的功能."><meta property="og:title" content="主题文档 - mermaid Shortcode"><meta property="og:description" content="mermaid shortcode 使用 Mermaid 库提供绘制图表和流程图的功能."><meta property="og:type" content="article"><meta property="og:url" content="https://chaosbus.github.io/2020/03/theme-documentation-mermaid-shortcode/"><meta property="og:image" content="https://chaosbus.github.io/2020/03/theme-documentation-mermaid-shortcode/featured-image.png"><meta property="article:section" content="posts"><meta property="article:published_time" content="2020-03-03T15:29:59+08:00"><meta property="article:modified_time" content="2020-03-03T15:29:59+08:00"><meta property="og:site_name" content="Origins"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://chaosbus.github.io/2020/03/theme-documentation-mermaid-shortcode/featured-image.png"><meta name=twitter:title content="主题文档 - mermaid Shortcode"><meta name=twitter:description content="mermaid shortcode 使用 Mermaid 库提供绘制图表和流程图的功能."><meta name=application-name content="LoveIt"><meta name=apple-mobile-web-app-title content="LoveIt"><meta name=theme-color content="#ffffff"><meta name=msapplication-TileColor content="#da532c"><link rel="shortcut icon" type=image/x-icon href=/favicon.ico><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=mask-icon href=/safari-pinned-tab.svg color=#5bbad5><link rel=manifest href=/site.webmanifest><link rel=canonical href=https://chaosbus.github.io/2020/03/theme-documentation-mermaid-shortcode/><link rel=prev href=https://chaosbus.github.io/2019/10/emoji-support/><link rel=next href=https://chaosbus.github.io/2019/12/basic-markdown-syntax/><link rel=stylesheet href=/css/style.min.css><link rel=preload href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css as=style onload='this.onload=null,this.rel="stylesheet"'><noscript><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css></noscript><link rel=preload href=https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css as=style onload='this.onload=null,this.rel="stylesheet"'><noscript><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css></noscript><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"主题文档 - mermaid Shortcode","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/chaosbus.github.io\/2020\/03\/theme-documentation-mermaid-shortcode\/"},"image":[{"@type":"ImageObject","url":"https:\/\/chaosbus.github.io\/2020\/03\/theme-documentation-mermaid-shortcode\/featured-image.png","width":1170,"height":497}],"genre":"posts","keywords":"shortcodes","wordcount":722,"url":"https:\/\/chaosbus.github.io\/2020\/03\/theme-documentation-mermaid-shortcode\/","datePublished":"2020-03-03T15:29:59+08:00","dateModified":"2020-03-03T15:29:59+08:00","license":"This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher":{"@type":"Organization","name":"xxxx","logo":{"@type":"ImageObject","url":"https:\/\/chaosbus.github.io\/images\/avatar.png","width":500,"height":500}},"author":{"@type":"Person","name":"Dillon"},"description":"mermaid shortcode 使用 Mermaid 库提供绘制图表和流程图的功能."}</script></head><body data-header-desktop=fixed data-header-mobile=auto><script type=text/javascript>(window.localStorage&&localStorage.getItem("theme")?localStorage.getItem("theme")==="dark":"auto"==="auto"?window.matchMedia("(prefers-color-scheme: dark)").matches:"auto"==="dark")&&document.body.setAttribute("theme","dark")</script><div id=mask></div><div class=wrapper><header class=desktop id=header-desktop><div class=header-wrapper><div class=header-title><a href=/ title=Origins><span class=header-title-pre><i class='fa-brands fa-linux' aria-hidden=true></i></span>Origins</a></div><div class=menu><div class=menu-inner><div class=dropdown><a href=javascript:void(0); class="menu-item menu-more dropbtn" title><i class="fas fa-fw fa-book-bookmark"></i> 专题</a><div class="menu-more-content dropdown-content"><a href=/tags/ title><i class="fas fa-fw fa-book"></i> 专题1 </a><a href=/tags/ title><i class="fas fa-fw fa-book"></i> 专题2 </a><a href=/categories/documentation/ title><i class="fas fa-fw fa-book"></i> 专题3</a></div></div><a class=menu-item href=/categories/><i class="fas fa-fw fa-th"></i> 分类
+</a><a class=menu-item href=/tags/><i class="fas fa-fw fa-tags"></i> 标签
+</a><a class=menu-item href=/posts/><i class="fas fa-fw fa-archive"></i> 归档
+</a><a class=menu-item href=/about/><i class="fas fa-fw fa-user"></i> 关于
+</a><span class="menu-item delimiter"></span><span class="menu-item search" id=search-desktop>
+<input type=text placeholder=搜索文章标题或内容... id=search-input-desktop>
+<a href=javascript:void(0); class="search-button search-toggle" id=search-toggle-desktop title=搜索><i class="fas fa-search fa-fw" aria-hidden=true></i></a>
+<a href=javascript:void(0); class="search-button search-clear" id=search-clear-desktop title=清空><i class="fas fa-times-circle fa-fw" aria-hidden=true></i></a>
+<span class="search-button search-loading" id=search-loading-desktop><i class="fas fa-spinner fa-fw fa-spin" aria-hidden=true></i></span>
+</span><a href=javascript:void(0); class="menu-item theme-switch" title=切换主题><i class="fas fa-adjust fa-fw" aria-hidden=true></i></a></div></div></div></header><header class=mobile id=header-mobile><div class=header-container><div class=header-wrapper><div class=header-title><a href=/ title=Origins><span class=header-title-pre><i class='fa-brands fa-linux' aria-hidden=true></i></span>Origins</a></div><div class=menu-toggle id=menu-toggle-mobile><span></span><span></span><span></span></div></div><div class=menu id=menu-mobile><div class=search-wrapper><div class="search mobile" id=search-mobile><input type=text placeholder=搜索文章标题或内容... id=search-input-mobile>
+<a href=javascript:void(0); class="search-button search-toggle" id=search-toggle-mobile title=搜索><i class="fas fa-search fa-fw" aria-hidden=true></i></a>
+<a href=javascript:void(0); class="search-button search-clear" id=search-clear-mobile title=清空><i class="fas fa-times-circle fa-fw" aria-hidden=true></i></a>
+<span class="search-button search-loading" id=search-loading-mobile><i class="fas fa-spinner fa-fw fa-spin" aria-hidden=true></i></span></div><a href=javascript:void(0); class=search-cancel id=search-cancel-mobile>取消</a></div><a class=menu-item href=/ title><i class="fas fa-fw fa-book-bookmark"></i>专题</a><a class=menu-item href=/categories/ title><i class="fas fa-fw fa-th"></i>分类</a><a class=menu-item href=/tags/ title><i class="fas fa-fw fa-tags"></i>标签</a><a class=menu-item href=/posts/ title><i class="fas fa-fw fa-archive"></i>归档</a><a class=menu-item href=/about/ title><i class="fas fa-fw fa-user"></i>关于</a><a href=javascript:void(0); class="menu-item theme-switch" title=切换主题>
+<i class="fas fa-adjust fa-fw" aria-hidden=true></i></a></div></div></header><div class="search-dropdown desktop"><div id=search-dropdown-desktop></div></div><div class="search-dropdown mobile"><div id=search-dropdown-mobile></div></div><main class=main><div class=container><div class=toc id=toc-auto><h2 class=toc-title>目录</h2><div class=toc-content id=toc-content-auto></div></div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">主题文档 - mermaid Shortcode</h1><div class=post-meta><div class=post-meta-line><span class=post-author><a href=https://dillonzq.com title=Author target=_blank rel="noopener noreffer author" class=author><i class="fas fa-user-circle fa-fw" aria-hidden=true></i>Dillon</a></span>&nbsp;<span class=post-category>收录于 <a href=/categories/documentation/><i class="far fa-folder fa-fw" aria-hidden=true></i>文档</a></span></div><div class=post-meta-line><i class="far fa-calendar-alt fa-fw" aria-hidden=true></i>&nbsp;<time datetime=2020-03-03>2020-03-03</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden=true></i>&nbsp;约 722 字&nbsp;
+<i class="far fa-clock fa-fw" aria-hidden=true></i>&nbsp;预计阅读 2 分钟&nbsp;</div></div><div class=featured-image><img class=lazyload src=/svg/loading.min.svg data-src=/2020/03/theme-documentation-mermaid-shortcode/featured-image.png data-srcset="/2020/03/theme-documentation-mermaid-shortcode/featured-image.png, /2020/03/theme-documentation-mermaid-shortcode/featured-image.png 1.5x, /2020/03/theme-documentation-mermaid-shortcode/featured-image.png 2x" data-sizes=auto alt=/2020/03/theme-documentation-mermaid-shortcode/featured-image.png title="mermaid shortcode 使用 Mermaid 库提供绘制图表和流程图的功能."></div><div class="details toc" id=toc-static data-kept><div class="details-summary toc-title"><span>目录</span>
+<span><i class="details-icon fas fa-angle-right" aria-hidden=true></i></span></div><div class="details-content toc-content" id=toc-content-static><nav id=TableOfContents><ul><li><a href=#flowchart>流程图</a></li><li><a href=#sequence-diagram>时序图</a></li><li><a href=#gantt>甘特图</a></li><li><a href=#class-diagram>类图</a></li><li><a href=#state-diagram>状态图</a></li><li><a href=#git-graph>Git 图</a></li><li><a href=#entity-relationship-diagram>实体关系图</a></li><li><a href=#user-journey>用户体验旅程图</a></li><li><a href=#pie>饼图</a></li><li><a href=#requirement-diagram>依赖图</a></li></ul></nav></div></div><div class=content id=content><a href=https://github.com/dillonzq/LoveIt/releases/tag/v0.2.11 rel="noopener noreffer" target=_blank><img class="lazyload version" src=/svg/loading.min.svg data-src=/svg/version/0.2.11-changed.min.svg data-srcset="/svg/version/0.2.11-changed.min.svg, /svg/version/0.2.11-changed.min.svg 1.5x, /svg/version/0.2.11-changed.min.svg 2x" data-sizes=auto alt="LoveIt 更改 | 0.2.11" title="LoveIt 更改 | 0.2.11"></a><p><code>mermaid</code> shortcode 使用 <a href=https://mermaidjs.github.io/ target=_blank rel="noopener noreffer">Mermaid</a> 库提供绘制图表和流程图的功能.</p><p><a href=https://mermaidjs.github.io/ target=_blank rel="noopener noreffer">mermaid</a> 是一个可以帮助你在文章中绘制图表和流程图的库, 类似 Markdown 的语法.</p><p>只需将你的 mermaid 代码插入 <code>mermaid</code> shortcode 中即可.</p><h2 id=flowchart>流程图</h2><p>一个 <strong>流程图</strong> <code>mermaid</code> 示例:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span><span class=lnt>7
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-markdown data-lang=markdown><span class=line><span class=cl>{{<span class=p>&lt;</span> <span class=nt>mermaid</span> <span class=p>&gt;</span>}}
+</span></span><span class=line><span class=cl>graph LR;
+</span></span><span class=line><span class=cl>    A[Hard edge] --&gt;|Link text| B(Round edge)
+</span></span><span class=line><span class=cl>    B --&gt; C{Decision}
+</span></span><span class=line><span class=cl>    C --&gt;|One| D[Result one]
+</span></span><span class=line><span class=cl>    C --&gt;|Two| E[Result two]
+</span></span><span class=line><span class=cl>{{<span class=p>&lt;</span> <span class=p>/</span><span class=nt>mermaid</span> <span class=p>&gt;</span>}}
+</span></span></code></pre></td></tr></table></div></div><p>呈现的输出效果如下:</p><div class=mermaid id=id-1></div><h2 id=sequence-diagram>时序图</h2><p>一个 <strong>时序图</strong> <code>mermaid</code> 示例:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-markdown data-lang=markdown><span class=line><span class=cl>{{<span class=p>&lt;</span> <span class=nt>mermaid</span> <span class=p>&gt;</span>}}
+</span></span><span class=line><span class=cl>sequenceDiagram
+</span></span><span class=line><span class=cl>    participant Alice
+</span></span><span class=line><span class=cl>    participant Bob
+</span></span><span class=line><span class=cl>    Alice-&gt;&gt;John: Hello John, how are you?
+</span></span><span class=line><span class=cl>    loop Healthcheck
+</span></span><span class=line><span class=cl>        John-&gt;John: Fight against hypochondria
+</span></span><span class=line><span class=cl>    end
+</span></span><span class=line><span class=cl>    Note right of John: Rational thoughts <span class=p>&lt;</span><span class=nt>br</span><span class=p>/&gt;</span>prevail...
+</span></span><span class=line><span class=cl>    John--&gt;Alice: Great!
+</span></span><span class=line><span class=cl>    John-&gt;Bob: How about you?
+</span></span><span class=line><span class=cl>    Bob--&gt;John: Jolly good!
+</span></span><span class=line><span class=cl>{{<span class=p>&lt;</span> <span class=p>/</span><span class=nt>mermaid</span> <span class=p>&gt;</span>}}
+</span></span></code></pre></td></tr></table></div></div><p>呈现的输出效果如下:</p><div class=mermaid id=id-2></div><h2 id=gantt>甘特图</h2><p>一个 <strong>甘特图</strong> <code>mermaid</code> 示例:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-markdown data-lang=markdown><span class=line><span class=cl>{{<span class=p>&lt;</span> <span class=nt>mermaid</span> <span class=p>&gt;</span>}}
+</span></span><span class=line><span class=cl>gantt
+</span></span><span class=line><span class=cl>dateFormat  YYYY-MM-DD
+</span></span><span class=line><span class=cl>title Adding GANTT diagram to mermaid
+</span></span><span class=line><span class=cl>excludes weekdays 2014-01-10
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>section A section
+</span></span><span class=line><span class=cl>Completed task            :done,    des1, 2014-01-06,2014-01-08
+</span></span><span class=line><span class=cl>Active task               :active,  des2, 2014-01-09, 3d
+</span></span><span class=line><span class=cl>Future task               :         des3, after des2, 5d
+</span></span><span class=line><span class=cl>Future task2              :         des4, after des3, 5d
+</span></span><span class=line><span class=cl>{{<span class=p>&lt;</span> <span class=p>/</span><span class=nt>mermaid</span> <span class=p>&gt;</span>}}
+</span></span></code></pre></td></tr></table></div></div><p>呈现的输出效果如下:</p><div class=mermaid id=id-3></div><h2 id=class-diagram>类图</h2><p>一个 <strong>类图</strong> <code>mermaid</code> 示例:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-markdown data-lang=markdown><span class=line><span class=cl>{{<span class=p>&lt;</span> <span class=nt>mermaid</span> <span class=p>&gt;</span>}}
+</span></span><span class=line><span class=cl>classDiagram
+</span></span><span class=line><span class=cl>    Animal <span class=err>&lt;</span>|-- Duck
+</span></span><span class=line><span class=cl>    Animal <span class=err>&lt;</span>|-- Fish
+</span></span><span class=line><span class=cl>    Animal <span class=err>&lt;</span>|-- Zebra
+</span></span><span class=line><span class=cl>    Animal : +int age
+</span></span><span class=line><span class=cl>    Animal : +String gender
+</span></span><span class=line><span class=cl>    Animal: +isMammal()
+</span></span><span class=line><span class=cl>    Animal: +mate()
+</span></span><span class=line><span class=cl>    class Duck{
+</span></span><span class=line><span class=cl>        +String beakColor
+</span></span><span class=line><span class=cl>        +swim()
+</span></span><span class=line><span class=cl>        +quack()
+</span></span><span class=line><span class=cl>    }
+</span></span><span class=line><span class=cl>    class Fish{
+</span></span><span class=line><span class=cl>        -int sizeInFeet
+</span></span><span class=line><span class=cl>        -canEat()
+</span></span><span class=line><span class=cl>    }
+</span></span><span class=line><span class=cl>    class Zebra{
+</span></span><span class=line><span class=cl>        +bool is_wild
+</span></span><span class=line><span class=cl>        +run()
+</span></span><span class=line><span class=cl>    }
+</span></span><span class=line><span class=cl>{{<span class=p>&lt;</span> <span class=p>/</span><span class=nt>mermaid</span> <span class=p>&gt;</span>}}
+</span></span></code></pre></td></tr></table></div></div><p>呈现的输出效果如下:</p><div class=mermaid id=id-4></div><h2 id=state-diagram>状态图</h2><p>一个 <strong>状态图</strong> <code>mermaid</code> 示例:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span><span class=lnt>7
+</span><span class=lnt>8
+</span><span class=lnt>9
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-markdown data-lang=markdown><span class=line><span class=cl>{{<span class=p>&lt;</span> <span class=nt>mermaid</span> <span class=p>&gt;</span>}}
+</span></span><span class=line><span class=cl>stateDiagram-v2
+</span></span><span class=line><span class=cl>    [*] --&gt; Still
+</span></span><span class=line><span class=cl>    Still --&gt; [*]
+</span></span><span class=line><span class=cl>    Still --&gt; Moving
+</span></span><span class=line><span class=cl>    Moving --&gt; Still
+</span></span><span class=line><span class=cl>    Moving --&gt; Crash
+</span></span><span class=line><span class=cl>    Crash --&gt; [*]
+</span></span><span class=line><span class=cl>{{<span class=p>&lt;</span> <span class=p>/</span><span class=nt>mermaid</span> <span class=p>&gt;</span>}}
+</span></span></code></pre></td></tr></table></div></div><p>呈现的输出效果如下:</p><div class=mermaid id=id-5></div><h2 id=git-graph>Git 图</h2><p>一个 <strong>Git 图</strong> <code>mermaid</code> 示例:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-markdown data-lang=markdown><span class=line><span class=cl>{{<span class=p>&lt;</span> <span class=nt>mermaid</span> <span class=p>&gt;</span>}}
+</span></span><span class=line><span class=cl>gitGraph
+</span></span><span class=line><span class=cl>    commit
+</span></span><span class=line><span class=cl>    commit
+</span></span><span class=line><span class=cl>    branch develop
+</span></span><span class=line><span class=cl>    checkout develop
+</span></span><span class=line><span class=cl>    commit
+</span></span><span class=line><span class=cl>    commit
+</span></span><span class=line><span class=cl>    checkout main
+</span></span><span class=line><span class=cl>    merge develop
+</span></span><span class=line><span class=cl>    commit
+</span></span><span class=line><span class=cl>    commit
+</span></span><span class=line><span class=cl>{{<span class=p>&lt;</span> <span class=p>/</span><span class=nt>mermaid</span> <span class=p>&gt;</span>}}
+</span></span></code></pre></td></tr></table></div></div><p>呈现的输出效果如下:</p><div class=mermaid id=id-6></div><h2 id=entity-relationship-diagram>实体关系图</h2><p>一个 <strong>实体关系图</strong> <code>mermaid</code> 示例:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-markdown data-lang=markdown><span class=line><span class=cl>{{<span class=p>&lt;</span> <span class=nt>mermaid</span> <span class=p>&gt;</span>}}
+</span></span><span class=line><span class=cl>erDiagram
+</span></span><span class=line><span class=cl>    CUSTOMER ||--o{ ORDER : places
+</span></span><span class=line><span class=cl>    ORDER ||--|{ LINE-ITEM : contains
+</span></span><span class=line><span class=cl>    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+</span></span><span class=line><span class=cl>{{<span class=p>&lt;</span> <span class=p>/</span><span class=nt>mermaid</span> <span class=p>&gt;</span>}}
+</span></span></code></pre></td></tr></table></div></div><p>呈现的输出效果如下:</p><div class=mermaid id=id-7></div><h2 id=user-journey>用户体验旅程图</h2><p>一个 <strong>用户体验旅程图</strong> <code>mermaid</code> 示例:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-markdown data-lang=markdown><span class=line><span class=cl>{{<span class=p>&lt;</span> <span class=nt>mermaid</span> <span class=p>&gt;</span>}}
+</span></span><span class=line><span class=cl>journey
+</span></span><span class=line><span class=cl>    title My working day
+</span></span><span class=line><span class=cl>    section Go to work
+</span></span><span class=line><span class=cl>      Make tea: 5: Me
+</span></span><span class=line><span class=cl>      Go upstairs: 3: Me
+</span></span><span class=line><span class=cl>      Do work: 1: Me, Cat
+</span></span><span class=line><span class=cl>    section Go home
+</span></span><span class=line><span class=cl>      Go downstairs: 5: Me
+</span></span><span class=line><span class=cl>      Sit down: 5: Me
+</span></span><span class=line><span class=cl>{{<span class=p>&lt;</span> <span class=p>/</span><span class=nt>mermaid</span> <span class=p>&gt;</span>}}
+</span></span></code></pre></td></tr></table></div></div><p>呈现的输出效果如下:</p><div class=mermaid id=id-8></div><h2 id=pie>饼图</h2><p>一个 <strong>饼图</strong> <code>mermaid</code> 示例:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-markdown data-lang=markdown><span class=line><span class=cl>{{<span class=p>&lt;</span> <span class=nt>mermaid</span> <span class=p>&gt;</span>}}
+</span></span><span class=line><span class=cl>pie
+</span></span><span class=line><span class=cl>    &#34;Dogs&#34; : 386
+</span></span><span class=line><span class=cl>    &#34;Cats&#34; : 85
+</span></span><span class=line><span class=cl>    &#34;Rats&#34; : 15
+</span></span><span class=line><span class=cl>{{<span class=p>&lt;</span> <span class=p>/</span><span class=nt>mermaid</span> <span class=p>&gt;</span>}}
+</span></span></code></pre></td></tr></table></div></div><p>呈现的输出效果如下:</p><div class=mermaid id=id-9></div><h2 id=requirement-diagram>依赖图</h2><p>一个 <strong>依赖图</strong> <code>mermaid</code> 示例:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-markdown data-lang=markdown><span class=line><span class=cl>{{<span class=p>&lt;</span> <span class=nt>mermaid</span> <span class=p>&gt;</span>}}
+</span></span><span class=line><span class=cl>requirementDiagram
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>requirement test_req {
+</span></span><span class=line><span class=cl>id: 1
+</span></span><span class=line><span class=cl>text: the test text.
+</span></span><span class=line><span class=cl>risk: high
+</span></span><span class=line><span class=cl>verifymethod: test
+</span></span><span class=line><span class=cl>}
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>element test_entity {
+</span></span><span class=line><span class=cl>type: simulation
+</span></span><span class=line><span class=cl>}
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>test_entity - satisfies -&gt; test_req
+</span></span><span class=line><span class=cl>{{<span class=p>&lt;</span> <span class=p>/</span><span class=nt>mermaid</span> <span class=p>&gt;</span>}}
+</span></span></code></pre></td></tr></table></div></div><p>呈现的输出效果如下:</p><div class=mermaid id=id-10></div></div><div class=post-footer id=post-footer><div class=post-info><div class=post-info-line><div class=post-info-mod><span>更新于 2020-03-03</span></div></div><div class=post-info-line><div class=post-info-md></div><div class=post-info-share><span><a href=javascript:void(0); title="分享到 微博" data-sharer=weibo data-url=https://chaosbus.github.io/2020/03/theme-documentation-mermaid-shortcode/ data-title="主题文档 - mermaid Shortcode"><i class="fab fa-weibo fa-fw" aria-hidden=true></i></a><a href=javascript:void(0); title="分享到 百度" data-sharer=baidu data-url=https://chaosbus.github.io/2020/03/theme-documentation-mermaid-shortcode/ data-title="主题文档 - mermaid Shortcode"><i data-svg-src=https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/baidu.svg aria-hidden=true></i></a></span></div></div></div><div class=post-info-more><section class=post-tags><i class="fas fa-tags fa-fw" aria-hidden=true></i>&nbsp;<a href=/tags/shortcodes/>shortcodes</a></section><section><span><a href=javascript:void(0); onclick=window.history.back()>返回</a></span>&nbsp;|&nbsp;<span><a href=/>主页</a></span></section></div><div class=post-nav><a href=/2019/10/emoji-support/ class=prev rel=prev title="Emoji 支持"><i class="fas fa-angle-left fa-fw" aria-hidden=true></i>Emoji 支持</a>
+<a href=/2019/12/basic-markdown-syntax/ class=next rel=next title="Markdown 基本语法">Markdown 基本语法<i class="fas fa-angle-right fa-fw" aria-hidden=true></i></a></div></div><div id=comments><link rel=stylesheet href=https://unpkg.com/@waline/client@v2/dist/waline.css><div id=waline class=comment></div><script type=module>
+                import { init } from 'https:\/\/unpkg.com\/@waline\/client@v2\/dist\/waline.mjs';
+            
+                init({
+                    el: '#waline',
+                    login: "force",
+                    serverURL: "https://waline.origins.top/",
+                    dark: 'body[theme="dark"]',
+                    placeholder: "欢迎留下您的意见...",
+                    meta: ["nick","mail","link"],
+                    requiredMeta: ["nick","mail"],
+                    emoji: ["//unpkg.com/@waline/emojis@1.1.0/qq","//unpkg.com/@waline/emojis@1.1.0/weibo","//unpkg.com/@waline/emojis@1.1.0/bilibili"],
+                    copyright:  true ,
+                    imageUploader:  false ,
+                    locale: {placeholder: "欢迎留下您的意见..." },
+                });
+              </script></div></article></div></main><footer class=footer><div class=footer-container><div class=footer-line itemscope itemtype=http://schema.org/CreativeWork><i class="far fa-copyright fa-fw" aria-hidden=true></i><span itemprop=copyrightYear>2022 - 2023</span><span class=author itemprop=copyrightHolder>&nbsp;<a href=/ target=_blank>Joe</a></span></div><div class=footer-line itemscope itemtype=http://schema.org/CreativeWork><span class=hugo-splitter>&nbsp;&nbsp;</span><br class=icp-br><sppan><a href=https://gohugo.io/ target=_blank rel="noopener noreffer" title="Powered by Hugo 0.111.3"><img src="https://img.shields.io/badge/Hugo-0.111.3-yellow?style=flat&logo=hugo"></a></sppan>
+<span class=hugo-splitter>&nbsp;&nbsp;</span><br class=icp-br><sppan><a href=https://github.com/dillonzq/LoveIt target=_blank rel="noopener noreffer" title="LoveIt 0.2.11"><img src="https://img.shields.io/badge/Theme-LoveIt-green?style=flat"></a></a></sppan><span class=icp-splitter>&nbsp;&nbsp;</span><br class=icp-br><span class=license><a rel=license href=http://creativecommons.org/licenses/by-nc-sa/4.0/ title><img alt=知识共享许可协议 style=border-width:0 src="https://img.shields.io/badge/License-BY--NC--SA%204.0-blue?style=flat&logo=creativecommons"></a></span><span class=icp-splitter>&nbsp;&nbsp;</span><br class=icp-br><span class=icp><a href=https://beian.miit.gov.cn target=_blank rel=icp><img src="https://img.shields.io/badge/%E8%9C%80ICP%E5%A4%87-16023223%E5%8F%B7--3-red?style=flat&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAdCAYAAAC9pNwMAAABS2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDIgNzkuMTYwOTI0LCAyMDE3LzA3LzEzLTAxOjA2OjM5ICAgICAgICAiPgogPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIi8+CiA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgo8P3hwYWNrZXQgZW5kPSJyIj8+nhxg7wAACNlJREFUSInF1mmMVeUdx/Hv2e+5+519mJWBYQZkGxZZxLKJqBXGoLS1iXWrmihotFXaJiTWWlsbl6q1aetWd5u0VkKjNG4YEJSlOCibDLMwM8x679z9nnPP1jcVJUxf+7z6J8+LT37/Z4VvaQhfFS8+sBXbctCDGrVTKlBUH4mxAbI9Hfj0IJLsp6paJ5/tmn20N/D0wKDRMq9F/c3M2U1/V0vDfWMFh+tv/Ig1zYPMabDImPJ52OaXO87W580KggCiiOsJOJ6I3wcNFaaeNKxrt72f2fLGu4FpJ/sDQABRzD22fH7/Yze069vGc6mrDLNIJCDik10sxz2by3VdPM87xzkP9jwPTZFRVI1YUJKH+oy7n3tbvv/P2wW/UQxRWe6w4ZJRptYLHDoCuz8v5cP92XbI762O+h6UVWHnUFbPpU0fEb2A60mMJ7MUi9b/b7UgKhiZMaIxm8YLplLMDPz8hl/EH+rs8TNlUpFf32uyZJGLPDwCiTGUyTWodTN49eUCdz2YwXb9NNcObp1X98WDoufynzMVCEKGn27ayPTWBi5ad8P5iQUkJEnFLjqM9Z+hrVX0vfDe6K2dPRWsW2bwyp9EUifSJB84gdxrkR0eRgv1o/3I4fbbprJ6scqamzVO9pffec1S5ZWY2Nfz5qEy/FqOC2Y3s3j53HMSi18VRjFPwSwg+1RfVbl115vvJrsfej7UGIsYPPGgQ7JXoO+Xx5B3dHEomyJ9x1qiQozkr95h5937aFnVyouPlgJK+Ss7Fxz64OTSxSX+LHYxT2IsRW5kbGI4oHcR0jqoqTjV9se3I7/f8rS/ClS23GxSXhph6L5d9Akm7qqZhHWBQGUJ+CWGFzcg7e7m6D3/ZuW1Ea5YKdA3EojuONi813TqNi+YPYOKUhXDtCeGL26/hakLLiEcdsaHRkRAoLRc4fJrmhnekyF0apgZowWSwwkaa+rw3f8WA1GZZsPP5JEChX8dhZTN6iU6kAcs5s+dHd183SJ0VVKL57pfw6YdRQw23aeWTns47DPTALWlRTR7kMLew6hGgYqUhWXYFFUdPZ6lUBahLA8hVcOftckfi7No7VRAAQqsX1dybfvG1qwriM9mM5mJ4e4jO5Cc01dPqixbr8tWGBQUL4vjGigEEShi+xUmZ2RiR/sJ1pbS8NkgZrKAGw0TsgQsQyFaF/nfYTGprAlMFysbA1pI3mhkR6snhGsaymYGvPyFEb9IdbUE2AzFFTwpRqCtBY0wmdER+hZW4j63gcJj38V+/ErSUZXsYBfjIZHIRW0c2Z8BskCAqN+CbBJBFnyyKjR+Ez57nBxLqpfMUeSISElMBFz6x2Q6OxzWrYjyxWVzEewioU3LCS5vQY6nMUrLwNaxXvoQ59IloFSx54PPAZtQLExVZZDxsVE8J4dn6v4JYatgbSjk0owPw7RGH2ADMo88Z7L20ip8f7gC7fAo0q4+0rt7kEQDvaghVZbiPHUHcyeXcfLjT3jmpR7AYsnSScya3UR8bARVMck7Y/cB75/X6rDf3Fg2dw2jKZm5dXGm1LuAzO5DCo9v6aT0ibco5kzOvLOP+NGTFJtDpPYeZKijk/Rn3QxsfZV7txwhX7ABiZUXBsGvIvguQApNQQva9RMmTvZ2dpVUls+tX/UD7GN/Y8Ws05w6rQF+9vyzg1vZjbvMRJhXiRSU8DpTFFe0QE8S6SfPkOkZoktrB2oAhZWrwljxOPmchiSMYOWNoxNuruFU5vWeXdsojiUon345113dBBQBmTYlTimgdB8nfPo4WjaNFgN9OMEkJ02dnadVt5ki54Esqy+bzKJltVhSPbI3iN2zCyMTeXNCuG7Omm2Zok7PR2+R7jvD8ouruHhmCrB5jVZeYxLdrTP4sr4Vtd9g4MA4qc4c+6cu5NPamfw4P59t2WrA4YdXKkASf7SFivo6PDdEPmf1fRM++zp1bH/0r4I1dD1ODtOWaW4IsvPjL7nqXhloQiSPwjjgMYkMASyGEBkjhISCQwkwzve/18AbT+pk8pVY4UacQi9y+gyZ0eRAw4qHa89LXEx1LXMSPfhDJYRb59BtlLKg2WPT2l6qYl1svtGkrLYckyA1S+t5+2ATm37WCui0LSynsckDNH5zTxAchbQtkx08hDHYiW6NgC0enHBzEZ102UDH8QORdEckjEzZrNWkRydzyx17uGnDXqbUnGZ6dRPjSY91q2TqwjFuvTxLo5Zn5Qo/pumRSFcTLQtybEhGE0fQrDhhJ0VvH2lTnnHPhGtsmWan469apERjI2MH3qN7+7MEfH6ql29CbV7PvsMG32k6yU2XDhEKyZw66eJaRdrXR7CzCcqUNC3zwgymPJRCH4KRRLINimpL14A5Y4GDeOqbsPRVcfuN7Xj44pav/hFfrNT2kr2rsqf2Ibp5pEA14ZIImUyW3t5REkkTXRGQ/DGGhtLginhqCWknQDE5hKf5UFSF9Lj020Q2ul5V1AR2hr+8vuP8Vlc2zMPRxoSjnx7XBC14sDoydahSGq7KdO/HFyrBchxCVfX4fDKp4T7SCQejYODZLrYgIqgKFsNIgQqEYob8mW6yiUyb7Z64LVK/+B85xznnJ3AWzqTzuIX46mr5wLs+UUTyIriBCjRNxguHMJIFDLEEvXEOVRWnSJ0+jCd4CJoGjoedM1CLcXQziW3nMV2TSMBeOx7vWZvPt1r+cMPzE8KunaUkFn0vNrvtqXj34c1W6gzxlEQ6naIoBahtnkMwoFMwIVzSRNguMt53Aj2s4nkSlgPoGqLkICsRNF0gl8rYWuP8+11/w/OOJDEhHPKLCIpOXmi+M9AgP+maiesLifF2T1Rn5ZNj5Lo/Qc/GcPMmhdoqlEgIGzCK4PiCmJKK68p4KfF3qYGuF0qCRUkJTzleUbvQyWRTuE5xYthxQbBs7EISAbkzUFG3VfXXbK2YFi3X/eryfKKnqVBItNjJxDzH8erddC4SqWwcN5WyTtlyO1RP/Lh3eHD76MB40swmiDVJyDLYRhpc5+ub6tse/wWKbvSQEAw1awAAAABJRU5ErkJggg=="></a></span></div></div></footer></div><div id=fixed-buttons><a href=# id=back-to-top class=fixed-button title=回到顶部><i class="fas fa-arrow-up fa-fw" aria-hidden=true></i>
+</a><a href=# id=view-comments class=fixed-button title=查看评论><i class="fas fa-comment fa-fw" aria-hidden=true></i></a></div><script type=text/javascript src=https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/algoliasearch@4.13.1/dist/algoliasearch-lite.umd.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/mermaid@9.1.3/dist/mermaid.min.js></script><script type=text/javascript>window.config={code:{copyTitle:"复制到剪贴板",maxShownLines:50},comment:{},data:{"id-1":`graph LR;
+    A[Hard edge] --\u003e|Link text| B(Round edge)
+    B --\u003e C{Decision}
+    C --\u003e|One| D[Result one]
+    C --\u003e|Two| E[Result two]`,"id-10":`requirementDiagram
+
+requirement test_req {
+id: 1
+text: the test text.
+risk: high
+verifymethod: test
+}
+
+element test_entity {
+type: simulation
+}
+
+test_entity - satisfies -\u003e test_req`,"id-2":`sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice-\u003e\u003eJohn: Hello John, how are you?
+    loop Healthcheck
+        John-\u003eJohn: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts \u003cbr/\u003eprevail...
+    John--\u003eAlice: Great!
+    John-\u003eBob: How about you?
+    Bob--\u003eJohn: Jolly good!`,"id-3":`gantt
+dateFormat  YYYY-MM-DD
+title Adding GANTT diagram to mermaid
+excludes weekdays 2014-01-10
+
+section A section
+Completed task            :done,    des1, 2014-01-06,2014-01-08
+Active task               :active,  des2, 2014-01-09, 3d
+Future task               :         des3, after des2, 5d
+Future task2              :         des4, after des3, 5d`,"id-4":`classDiagram
+    Animal \u003c|-- Duck
+    Animal \u003c|-- Fish
+    Animal \u003c|-- Zebra
+    Animal : +int age
+    Animal : +String gender
+    Animal: +isMammal()
+    Animal: +mate()
+    class Duck{
+        +String beakColor
+        +swim()
+        +quack()
+    }
+    class Fish{
+        -int sizeInFeet
+        -canEat()
+    }
+    class Zebra{
+        +bool is_wild
+        +run()
+    }`,"id-5":`stateDiagram-v2
+    [*] --\u003e Still
+    Still --\u003e [*]
+    Still --\u003e Moving
+    Moving --\u003e Still
+    Moving --\u003e Crash
+    Crash --\u003e [*]`,"id-6":`gitGraph
+    commit
+    commit
+    branch develop
+    checkout develop
+    commit
+    commit
+    checkout main
+    merge develop
+    commit
+    commit`,"id-7":`erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses`,"id-8":`journey
+    title My working day
+    section Go to work
+      Make tea: 5: Me
+      Go upstairs: 3: Me
+      Do work: 1: Me, Cat
+    section Go home
+      Go downstairs: 5: Me
+      Sit down: 5: Me`,"id-9":`pie
+    "Dogs" : 386
+    "Cats" : 85
+    "Rats" : 15`},search:{algoliaAppID:"PASDMWALPK",algoliaIndex:"index.zh-cn",algoliaSearchKey:"b42948e51daaa93df92381c8e2ac0f93",highlightTag:"em",maxResultLength:10,noResultsFound:"没有找到结果",snippetLength:50,type:"algolia"}}</script><script type=text/javascript src=/js/theme.min.js></script></body></html>

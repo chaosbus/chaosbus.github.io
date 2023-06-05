@@ -219,7 +219,7 @@ str="this is a string"
 
 ## 两个文件的差集、并集
 
-- a.txt
+* a.txt
 
 ```txt
 a
@@ -229,7 +229,7 @@ c
 1
 ```
 
-- b.txt
+* b.txt
 
 ```txt
 1
@@ -239,26 +239,28 @@ a
 7
 ```
 
-- 并集
+* 并集
 
 ```sh
 sort -u a.txt b.txt
 ```
 
-- 交集
+* 交集
 
 ```sh
 grep -F -f a.txt b.txt | sort | uniq
 ```
 
-- 差集
+* 差集
   * a-b
+
     ```shell
     grep -F -v -f b.txt a.txt | sort | uniq
     ```
+
   * b-a
+
     ```sh
     grep -F -v -f a.txt b.txt | sort | uniq
     ```
-
 

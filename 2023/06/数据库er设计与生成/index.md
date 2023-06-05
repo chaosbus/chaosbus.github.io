@@ -14,25 +14,25 @@
 
 #### a) 新建Model
 
-![image-20230602174931852](http://static.origins.top/md/image-20230602174931852.png)
+![image-20230602174931852](https://images.origins.top/posts/image-20230602174931852.png)
 
 #### b) 新建EER
 
-![image-20230602175014392](http://static.origins.top/md/image-20230602175014392.png)
+![image-20230602175014392](https://images.origins.top/posts/image-20230602175014392.png)
 
 ### 2.2 设计编辑
 
 #### a) 添加【Table】
 
-![image-20230602175208833](http://static.origins.top/md/image-20230602175208833.png)
+![image-20230602175208833](https://images.origins.top/posts/image-20230602175208833.png)
 
 双击【Table】，显示表格的相关信息，可以添加字段并设置字段属性
 
-![image-20230602180405598](http://static.origins.top/md/image-20230602180405598.png)
+![image-20230602180405598](https://images.origins.top/posts/image-20230602180405598.png)
 
 #### b) 添加【外键】
 
-![image-20230602180447234](http://static.origins.top/md/image-20230602180447234.png)
+![image-20230602180447234](https://images.origins.top/posts/image-20230602180447234.png)
 
 外键类型为：一对一，一对多，多对多。
 
@@ -44,15 +44,15 @@
 
 双击外键表【Table】，点击红框【Foreign Keys】Tab，分别编辑黄框与绿框
 
-![image-20230602181400994](http://static.origins.top/md/image-20230602181400994.png)
+![image-20230602181400994](https://images.origins.top/posts/image-20230602181400994.png)
 
 ### 2.3 生成Table
 
-![image-20230602181635056](http://static.origins.top/md/image-20230602181635056.png)
+![image-20230602181635056](https://images.origins.top/posts/image-20230602181635056.png)
 
 点击菜单栏【Database】-【Forward Engineer】，依次下一步即可将ER中建立的表生成到对应的数据库中。
 
 在**DBeaver**中连接到该数据库后，查看ER图如下：
 
-![image-20230602181954557](http://static.origins.top/md/image-20230602181954557.png)
+![image-20230602181954557](https://images.origins.top/posts/image-20230602181954557.png)
 

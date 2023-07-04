@@ -7,7 +7,10 @@
 
 ## 软件篇
 
-> ...
+| 软件 | 地址 |
+|---|----|
+| Morse Runner | [官网](https://dxatlas.com/Download.asp) |
+| CWplayer| [官网](http://f6dqm.free.fr/soft/cwplayer/en/cwplayer.htm) |
 
 ## 手册篇
 
